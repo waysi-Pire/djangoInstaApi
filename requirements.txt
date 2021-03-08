@@ -1,6 +1,5 @@
 Django
 djangorestframework
-rest_framework_simplejwt
 tqdm
 requests
 djano_heroku
