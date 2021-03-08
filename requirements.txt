@@ -2,5 +2,5 @@ Django
 djangorestframework
 tqdm
 requests
-djano_heroku
+django-heroku
 gunicorn
