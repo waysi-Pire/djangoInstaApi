@@ -123,14 +123,22 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 INSTA_ACCOUNTS = [
+    # {
+    #     "username": "bunnydeluxe_",
+    #     'password': '96Nf6bDv'
+    # },
+    # {
+    #     "username": "claradav1d",
+    #     'password': 'Erlin1008411'
+    # }
     {
-        "username": "bunnydeluxe_",
-        'password': '96Nf6bDv'
+        "username": "irxlmVrcwxu2909",
+        'password': 'irxlmVrcwxu2909'
     },
     {
-        "username": "claradav1d",
-        'password': 'Erlin1008411'
-    }
+        "username": "zzdvnkYdav8645",
+        'password': 'rkdmlpbxf2gj'
+    },
 ]
 
 
