@@ -264,9 +264,12 @@ class request_bot:
                 res = self.session.get(url)
                 data = res.json()
                 for item in data.get('items'):
-                    url = item.get('image_versions2').get('candidates')[0].get('url')
-                    print(url)
-                    all_medias.append(url)
+                    try:
+                        url = item.get('image_versions2').get('candidates')[0].get('url')
+                        print(url)
+                        all_medias.append(url)
+                    except:
+                        pass
                 max_id = data.get('next_max_id')
                 if not max_id:
                     print("this runned")

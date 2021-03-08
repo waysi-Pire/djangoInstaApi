@@ -131,14 +131,18 @@ INSTA_ACCOUNTS = [
     #     "username": "claradav1d",
     #     'password': 'Erlin1008411'
     # }
-    {
-        "username": "irxlmVrcwxu2909",
-        'password': 'irxlmVrcwxu2909'
-    },
+    # {
+    #     "username": "irxlmVrcwxu2909",
+    #     'password': 'irxlmVrcwxu2909'
+    # },
     {
         "username": "zzdvnkYdav8645",
         'password': 'rkdmlpbxf2gj'
     },
+    # {
+    #     "username": "hqndrFtnk1569",
+    #     'password': 'ka8yvqncxkjq'
+    # },
 ]
 
 
