@@ -266,8 +266,13 @@ class request_bot:
                 for item in data.get('items'):
                     try:
                         url = item.get('image_versions2').get('candidates')[0].get('url')
-                        print(url)
-                        all_medias.append(url)
+                        code = item.get('code')
+                        all_medias.append(
+                                            {
+                                                'url':url,
+                                                'code':code
+                                            }
+                                        )
                     except:
                         pass
                 max_id = data.get('next_max_id')
