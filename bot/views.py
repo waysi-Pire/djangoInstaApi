@@ -300,11 +300,6 @@ def getPostsView(request):
             return JsonResponse({"msg":"amount must be greater then 0"})
     except Exception as e:
         return JsonResponse({"msg":"amount must be greater then 0"})
-    # insta_account = settings.INSTA_ACCOUNTS[random.randint(0,len(settings.INSTA_ACCOUNTS)-1)]
-    # bot = request_bot(insta_account.get('username'),insta_account.get('password'))
-    # bot.load_session()
-    # return JsonResponse({})
-        
     try:
         insta_account = settings.INSTA_ACCOUNTS[random.randint(0,len(settings.INSTA_ACCOUNTS)-1)]
         bot = request_bot(insta_account.get('username'),insta_account.get('password'))
